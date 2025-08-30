@@ -1,4 +1,4 @@
-local GRAPHICS_PATH = "__spidertron-logistics__/graphics/"
+local GRAPHICS_PATH = "__eight-legged-courier__/graphics/"
 
 local function equipment (letter)
     return {

@@ -1,8 +1,8 @@
 {
-	"name": "spidertron-logistics",
+	"name": "eight-legged-courier",
 	"version": "0.0.1",
-	"title": "Spidertron Logistics",
+	"title": "Eight-legged Courier",
 	"author": "mad_engineer",
-	"description": "Yet another mod that turns your spidertrons into a walking trains. Adds 6 pairs of loading zones and drop zones per surface and makes spidertrons walk between them. You have to set your logistic requests forehand. When spidertron arrives to loading station it turns on logistic requests and waits according to timer. When it arrives to drop station it turns all logistic requests off and dumps all its inventory into your bots network",
+	"description": "Yet another mod that can turn your spidertron into a walking train. Adds 6 pairs of loading + drop zones per surface and makes spidertrons walk between them. When spidertron arrives to loading zone it turns on all logistic requests and waits according to timer. Then it goes to drop zone and on arrival turns all logistic requests off and dumps all its inventory into your bots network",
 	"factorio_version": "2.0"
 }
