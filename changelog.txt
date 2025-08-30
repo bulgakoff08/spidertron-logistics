@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date 30-8-2025
+- Initial version
+    + 6 loading zones
+    + 6 drop zones
+    + Navigation module
+    + Timer module
+    + Scripting
