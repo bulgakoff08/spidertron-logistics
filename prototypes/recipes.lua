@@ -6,7 +6,7 @@ local function items (...)
             table.insert(result, {
                 type = "item",
                 name = arguments[index],
-                probability = arguments[index + 1],
+                independent_probability = arguments[index + 1],
                 amount = 1
             })
         else
@@ -24,7 +24,7 @@ local function recipe (category, craftingTime, recipeId, inputs, outputs, produc
     return {
         type = "recipe",
         name = recipeId,
-        category = category,
+        categories = {category},
         ingredients = inputs,
         results = outputs,
         energy_required = craftingTime,

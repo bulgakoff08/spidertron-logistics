@@ -251,12 +251,12 @@ local function entityRemovalHandler (event)
             return
         end
         local letter = getDropzoneLetter(event.entity)
-        if letter ~= nil then
+        if letter ~= nil and event.entity == storage.surfaces[surfaceIndex].dropZones[letter] then
             storage.surfaces[surfaceIndex].dropZones[letter] = nil
             return
         end
         letter = getLoadZoneLetter(event.entity)
-        if letter ~= nil then
+        if letter ~= nil and event.entity == storage.surfaces[surfaceIndex].loadZones[letter] then
             storage.surfaces[surfaceIndex].loadZones[letter] = nil
             return
         end
